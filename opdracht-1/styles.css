@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap');
+
 .recipe-card {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
@@ -6,3 +8,45 @@
 }
 
 /* - Vul dit document aan met jouw eigen css! - */
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*lichtgrijs #F7F7F7 en donkergrijs #d3d3d3*/
+
+article {
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+
+}
+
+div {
+    background-color: #F7F7F7;
+    margin-top: -6px;
+}
+
+span {
+    padding: 0px 20px;
+    align-items: center;
+}
+
+p {
+    margin-left: 25px;
+}
+
+span > img {
+    height: 15px;
+    padding: 0px 1px;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
