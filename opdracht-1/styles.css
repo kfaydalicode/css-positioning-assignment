@@ -26,21 +26,26 @@ article {
 
 }
 
-div {
+.recipe-image {
+    width: 100%;
+}
+
+
+.recipe-details {
     background-color: #F7F7F7;
     margin-top: -6px;
 }
 
-span {
+.detail-icon {
     padding: 0px 20px;
     align-items: center;
 }
 
-p {
+.recipe-title {
     margin-left: 25px;
 }
 
-span > img {
+.detail-icon {
     height: 15px;
     padding: 0px 1px;
 }
